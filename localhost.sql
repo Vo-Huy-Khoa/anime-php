@@ -33,7 +33,7 @@ CREATE TABLE `animes` (
   `id` int(11) NOT NULL,
   `category_id` int(11) NOT NULL,
   `title` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `description` text COLLATE utf8_unicode_ci,
+  `description` text COLLATE utf8_unicode_ci DEFAULT NULL,
   `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `time` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
   `view` int(11) DEFAULT NULL,

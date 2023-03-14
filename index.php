@@ -1,11 +1,10 @@
 <?php
+
 include_once('model/helper.php');
 $db = new Database();
 
-
 $view = filter_input(INPUT_GET, 'v');
 $action = filter_input(INPUT_GET, 'a');
-
 
 if (empty($view) || empty($action)) {
     $view = 'common';
@@ -23,10 +22,6 @@ if (file_exists($path)) {
 ?>
 
 <base href="<?php echo Helper::get_url(''); ?>">
-
-
-
-
 
 <!-- Js Plugins -->
 <script src="public/user/js/jquery-3.3.1.min.js"></script>

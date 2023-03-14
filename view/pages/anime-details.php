@@ -48,20 +48,6 @@
                          <div class="anime__details__title">
                              <h3><?php echo $anime['title'] ?></h3>
                          </div>
-                         <!-- <div class="anime__details__rating">
-                                <div class="rating">
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star"></i></a>
-                                    <a href="#"><i class="fa fa-star-half-o"></i></a>
-                                </div>
-                                <span>1.029 Votes</span>
-                            </div> -->
-                         <!-- <p>Every human inhabiting the world of Alcia is branded by a “Count” or a number written on
-                             their body. For Hina’s mother, her total drops to 0 and she’s pulled into the Abyss,
-                             never to be seen again. But her mother’s last words send Hina on a quest to find a
-                             legendary hero from the Waste War - the fabled Ace!</p> -->
                          <div class="anime__details__widget">
                              <div class="row">
                                  <div class="col-lg-6 col-md-6">
@@ -78,15 +64,6 @@
                                          </li>
                                      </ul>
                                  </div>
-                                 <!-- <div class="col-lg-6 col-md-6">
-                                        <ul>
-                                            <li><span>Scores:</span> 7.31 / 1,515</li>
-                                            <li><span>Rating:</span> 8.5 / 161 times</li>
-                                            <li><span>Duration:</span> 24 min/ep</li>
-                                            <li><span>Quality:</span> HD</li>
-                                            <li><span>Views:</span> 131,541</li>
-                                        </ul>
-                                    </div> -->
                              </div>
                          </div>
                          <div class="anime__details__btn">

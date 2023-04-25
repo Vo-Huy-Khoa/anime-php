@@ -198,7 +198,7 @@ class Helper{
 
 class Database{
 
-    private static $dsn = "mysql:host=http://18.181.241.67/;dbname=anime";
+    private static $dsn = "mysql:host=http://localhost;dbname=anime";
     private static $username = "root";
     private static $password = "123456";
     private static $con = null;
